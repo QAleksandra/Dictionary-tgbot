@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 import json
 
-bot = telebot.TeleBot(token='Вставьте токен ', parse_mode='html')
+bot = telebot.TeleBot(token='Вставьте токен', parse_mode='html')
 
 with open('dict.json', "r", encoding="utf-8") as json_file:
     DEFINITIONS = json.load(json_file)
